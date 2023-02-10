@@ -4,11 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { MenuComponent } from './menu/menu.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { DataprotectionComponent } from './dataprotection/dataprotection.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideshowComponent
+    SlideshowComponent,
+    MenuComponent,
+    ImprintComponent,
+    DataprotectionComponent
   ],
   imports: [
     BrowserModule,
